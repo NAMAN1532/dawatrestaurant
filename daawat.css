@@ -1,0 +1,620 @@
+body{
+    font-family: 'Dancing Script', cursive;
+}
+
+/* chef images section css starting */
+
+.chefs{
+    height: auto;
+    width:100%;
+    padding: 10px;
+    display: block;
+}
+.chefhead{
+    color: red;
+    font-size: 47px;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    padding: 15px 50px;
+}
+.chefred{
+    width: 130px;
+    margin-top: -60px;
+}
+.chefimghead{
+    display: flex;
+    flex-wrap: wrap;
+    padding:15px 40px;
+    width: 100%;
+    margin-top: -50px;
+}
+.chefimg{
+    height: 280px;
+    width: 173px;
+    margin: 10px;
+    display: block;
+}
+.teamimg{
+    height: 70%;
+    width: 100%;
+    position: relative;
+}
+.team1{
+    height: 100%;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+    display: block;
+}
+.aclink{
+    transition: 0.3s ease-in-out;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: rgba(0,0,0);
+}
+.text{
+    color: white;
+    font-size: 18px;
+    text-align: right;
+    margin: 9px;
+}
+.teamimg:hover .aclink{
+    background-color: rgba(0,0,0,);
+    opacity: 0.8;
+}
+
+.hovlink:hover{
+    color: rgb(62, 46, 202);
+}
+.teamdesc{
+    text-align: center;
+    font-size: 14px;
+    font-family:  'PT Sans Narrow', Sans Serif;
+    padding: 5px;
+}
+
+/* chef image css ending */
+
+
+/* book table section css starting */
+
+.book1{
+    background: linear-gradient(rgba(18, 18, 19, 0.8), rgba(4, 4, 5, 0.8)),
+     url('./daawatimages/blog-1.jpg') fixed center center;
+	background-size: cover;
+	padding: 120px 0;
+    text-align: center;
+    color: white;
+    position: relative;
+    font-family:  'PT Sans Narrow', Sans Serif;
+}
+.book{
+    background-color: #fff;
+    color: tomato;
+    margin-top: 15px;
+    border: none;
+    width: 180px;
+    font-size: 14px;
+    height: 43px;
+}
+.book:hover{
+    border: none;
+    background-color: tomato;
+    color: #fff;
+}
+
+/* book table section css ending */
+
+/* footer css starting */
+
+.footer1{
+    height: 480px;
+    width: 100%;
+    background: linear-gradient(rgba(18, 18, 19, 0.8), rgba(4, 4, 5, 0.8)),
+    url('./daawatimages/Footer\ background.png') center center;
+    background-size: cover;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+}
+.footerimg,.footerlink,.footeradd{
+    height: auto;
+    width: 600px;
+    margin: 5px 20%;
+    padding: 10px;
+    text-align: center;
+    font-family:  'PT Sans Narrow', Sans Serif; 
+}
+.footerlogo{
+    height: 60px;
+    width: 160px;
+}
+.footeradd{
+    color: white;
+    padding-top: 20px;
+    font-size: 15px;
+    line-height: 2rem;
+}
+.footnum{
+    font-size: 16px;
+    color: tomato;
+    text-decoration: none;
+}
+.footerlink{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+}
+.footlink{
+    height: 30px;
+    width: 30px;
+    margin: 0px 20px;
+}
+.flink{
+    color: white;
+    font-size: 24px;
+}
+.foot{
+    height: 90px;
+    margin-top: 65px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid indianred;
+}
+.terms{
+    height: 60px;
+    width: 50%;
+    padding: 15px;
+    font-family:  'PT Sans Narrow', Sans Serif;
+    color: tomato; 
+    margin: 5px;
+   
+}
+.copy{
+    height: 60px;
+    width: 40%;
+    margin: 5px;
+    margin-left: 50px;
+    padding: 15px;
+    color: white;
+    font-family:  'PT Sans Narrow', Sans Serif;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    float: left;
+    margin: 0px 7px;
+    
+}
+/* footer css ending */
+
+/* our story css starting */
+
+.storybg1{
+    height: 400px;
+    width: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-image: url('./daawatimages/our\ story\ background.png');
+    background-size: 100% 200px;
+    display: block;
+
+}
+
+.storycont{
+    width: 70%;
+    height: 200px;
+    margin-left: 14%;
+    column-count: 2;
+}
+  
+.frst{
+    font-family:  'PT Sans Narrow', Sans Serif;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.storysign{
+    width: 200px;
+    margin-left: 40%;
+}
+/* our story css ending */
+
+.sliding1{
+    overflow:visible;
+    height: 470px;
+    width: 100%;
+    top: -110px;
+    z-index: 1;
+}
+.tophead{
+    position: relative;
+}
+
+
+.slider1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(19, 17, 17, 0.7)) ,
+     url('./daawatimages/promo_slide_1.jpg');
+    height: 470px;
+    width: 100%; 
+    background-size: 100% 100%;
+}
+.slider2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(19, 17, 17, 0.7)) ,
+    url('./daawatimages/promo_slide_2.jpg');
+    height: 470px;
+    width: 100%;
+    background-size: 100% 100%;
+}
+.slider3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(19, 17, 17, 0.7)) ,
+    url('./daawatimages/promo_slide_3.jpg');
+    height: 470px;
+    width: 100%;
+    background-size: 100% 100%;
+    
+}
+.slide3{
+    top: 20%;
+}
+.carhead{
+    font-size: 72px;
+}
+.cardesc{
+    font-family: 'Lato', Sans Serif;
+    font-size: 39px;
+    font-weight: 400;
+    margin: 0px;
+    text-transform: uppercase;
+}
+.order1{
+    height: 34px;
+    width: 180px;
+    font-family: 'Lato', Sans Serif;
+    border: 2px solid #fff;
+    margin: 10px;
+    margin-left: 39%;
+    font-size: 14px;
+    padding: 2px;
+    transition: 0.5s ease-in-out;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.order1:hover{
+    background: tomato;
+    border: none;
+}
+
+/* navbar css */
+
+.topbar{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 999;
+    overflow:visible;
+    padding:3px 3px 3px 56px;
+    position:sticky;
+    font-family:  'PT Sans Narrow', Sans Serif;
+    border-bottom: 1px solid white;
+    
+}
+.topfirst{
+    margin: 2px 10px 2px 2px;
+    height: 43px;
+    color:white ;
+    font-size: 14px;
+    padding: 5px;
+    text-align: justify;
+    align-items: center;
+}
+.navlink{
+    padding: 10px 10px 10px 50px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20%;
+}
+.navlink1{
+    margin: 0px 6px;
+}
+.nlink{
+    color: #fff;
+}
+.navigator1{
+    height: auto;
+    width: 100%;
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 999;
+    overflow:visible;
+    position:sticky;
+    font-family:  'PT Sans Narrow', Sans Serif;
+    transition: 0.1s ease-in-out;
+}
+.navigator12{
+    height: auto;
+    width: 100%;
+    padding: 10px 10px 0px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 999;
+    overflow:visible;
+    background-color: white;
+    position:sticky;
+    font-family:  'PT Sans Narrow', Sans Serif;
+    transition: 0.1s ease-in-out;
+    color: black;
+}
+.rightnav{
+    height: 45px;
+    width: 155px;
+}
+.nav2{
+	float: right;
+	list-style-type: none;
+	padding: 10px 10px 10px 30px;
+    margin: 1px 1px 1px 17%;
+	width: auto;
+    font-size: 14px;
+}
+.nav3{
+	display: inline;
+	float:left;
+	margin-left: 5px;
+	padding-left: 5px;
+}
+.nav31{
+    display: inline;
+    margin-left: 5px;
+	padding-left: 5px;
+}
+.navin{
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+	color: white;
+    transition: .5s ease-in-out;
+}
+.navin1{
+	text-decoration: none;
+	display: block;
+	padding: 5px;
+	color: black;
+    transition: .5s ease-in-out;
+}
+.hid1{
+    display: none;
+}
+
+.navin:hover{
+    color: #ffa03b;
+}
+
+.navi{
+	text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    color: white;
+    background: #ffb03b;
+    transition: .5s ease-in-out;
+}
+.navi:hover{
+	background-color:#ffa01b ;
+	color: white;
+}
+
+/* menu css */
+
+.buttonhead{
+    display: flex;
+    flex-wrap: wrap;
+    height: 40px;
+    width: 100%;
+    padding: 5px 10px 5px 32%;
+    margin-top: -40px;
+    
+}
+.menubutton{
+    width: auto;
+    height: 30px;
+    font-family:  'PT Sans Narrow', Sans Serif;
+    padding: 3px;
+    margin: 4px;
+    line-height: 1.5rem;
+    font-size: 13px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+}
+.menubutton:hover{
+    background-color: red;
+    border: none;
+    color: white;
+}
+.menusec{
+    width: 100%;
+    padding: 16px 60px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family:  'PT Sans Narrow', Sans Serif;
+}
+
+.menudesc{
+    height: 150px;
+    padding: 5px;
+    width: 48.5%;
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid skyblue;
+    transition: 0.3s ease-in-out;
+}
+
+.menu{
+    margin-top: 15px;
+    margin-left: 5px;
+    border-radius: 50%;
+    border: 8px solid skyblue;
+}
+.menuitem{
+    width: 59%;
+    padding: 14px;
+    margin: 5px;
+}
+.menul{
+    list-style-type: square;
+    column-count: 3;
+    margin: 8px;
+    padding: 1px;
+    font-size: 13px;
+    font-weight: lighter;
+    color: rgb(35, 95, 95);
+}
+.menuli{
+    margin: 1px;
+    float: none;
+}
+.menuprice{
+    font-size: 18px;
+    color: tomato;
+    padding-top: 15px;
+}
+
+
+.scollup{
+	border-radius: 50px;
+	background-color: chocolate;
+	border: 1px solid white;
+	height: 40px;
+	width: 40px;
+	padding: auto;
+	color: white;
+	transition: all 0.4s;
+	display: none;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	z-index: 996;
+}
+.scollup:hover{
+	background: rgb(247, 129, 45);
+    color: #fff;
+}
+
+.special1 {
+    background: linear-gradient(rgba(18, 18, 19, 0.8), rgba(4, 4, 5, 0.8)),
+     url('./daawatimages/Footer\ background.png') fixed center center;
+	background-size: cover;
+	
+}
+.special{
+    height: auto;
+    width:100%;
+    padding: 10px;
+    display: block;
+    position: relative;
+}
+
+.promoslide{
+    height: 420px;
+    width: 100%;
+    padding: 0px 20px;
+    margin-top: -30px;
+}
+.promo1{
+    height: 350px;
+    width: 70%;
+    object-fit: cover;
+}
+.promo2{
+    height: 400px;
+}
+.promo3{
+    background-color: rgb(236, 247, 245);
+    width: 35%;
+    height: 220px;
+    top: 17%;
+    left: 55%;
+    color: black;
+    text-align: left;
+    padding: 30px 24px;
+    font-family: sans-serif;
+}
+.promooff{
+    font-weight: bolder;
+}
+.promodesc{
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 15px;
+    color: grey;
+}
+.orderbutton{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid tomato;
+    border-radius: none;
+    color: black;
+}
+.orderbutton:hover{
+    background-color: tomato;
+    outline: none;
+}
+.news1{
+    background: linear-gradient(rgba(18, 18, 19, 0.8), rgba(4, 4, 5, 0.8)),
+     url('./daawatimages/promo_slide_1.jpg') fixed center center;
+	background-size: cover;
+	
+}
+.gallery{
+    color: red;
+    font-size: 47px;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 50px 50px;
+}
+
+ 
+.special::before, .footer1::before ,.book1::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: -8px;
+    width: 100%;
+    height: 8px;
+    right: 0;
+    background:linear-gradient(45deg, transparent 33.333%,#222 33.333%, #222 66.667%,
+        transparent 66.667%),
+      linear-gradient(-45deg, transparent 33.333%,#222 33.333%, #222 66.667%,
+        transparent 66.667%);
+    background-size: 13px 24px;
+  }
+  .special::after ,.book1::after ,.tophead::after{
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 8px;
+    left: 0;
+    background:linear-gradient(45deg, transparent 33.333%,#fff 33.333%, #fff 66.667%,
+        transparent 66.667%),
+      linear-gradient(-45deg, transparent 33.333%,#fff 33.333%, #fff 66.667%,
+        transparent 66.667%);
+    background-size: 13px 24px;
+  }
+
+
